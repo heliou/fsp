@@ -56,7 +56,7 @@ ROOT_URLCONF = 'SmartProspective.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/home/git/Repo/fsp/SmartProspective/templates/'], #not sure for the ~ or ./home/ ?
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
