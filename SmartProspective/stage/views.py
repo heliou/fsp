@@ -4,6 +4,9 @@ from stage.models import Person
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 
+#For aduser
+#    Account(login="zouzy", password="totototo", email="fabian.le-maux@epitech.eu", age=19, su=True).save()
+
 
 # Create your views here.
 #def index(request):
