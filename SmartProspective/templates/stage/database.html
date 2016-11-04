@@ -9,8 +9,8 @@
 
     {% if Person %}
     <ul>
-      {% for first_name in Person %}
-      <li>{{ Person.first_name }}</li>
+      {% for p in Person%} 
+      <li>{{ p.first_name }}</li>
       {% endfor %}
     </ul>
     {% else %}

@@ -15,11 +15,11 @@ from django.shortcuts import render_to_response
 def basic(request):
     return HttpResponse("It's a basic page, in a basic stage")
 ##########################################################################################################################################"
-def index(request):
+def database(request):
     context = RequestContext(request)
     all_person_list = Person.objects.all()
     context_dict ={'Person': all_person_list}
-    return render_to_response('stage/index.html', context_dict, context)
+    return render_to_response('stage/database.html', context_dict, context)
 ##########################################################################################################################################"
 #SAVE
 
